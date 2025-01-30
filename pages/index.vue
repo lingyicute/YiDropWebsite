@@ -122,15 +122,6 @@
         />
       </div>
 
-      <div class="mt-8" v-if="locale !== 'zh-CN'">
-        <!-- YouTube video; We disable this for mainland China because YouTube is not available there. -->
-        <iframe width="560" height="315" :src="youtubeVideo"
-                class="max-sm:w-screen"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      </div>
-
       <h2 class="mt-24 text-center text-3xl font-bold dark:text-white">
         {{ t("home.get") }}
       </h2>
@@ -178,14 +169,7 @@ onMounted(() => {
   }
 });
 
-const youtubeVideo = computed(() => {
-  switch (locale.value) {
-    case "de":
-      return "https://www.youtube-nocookie.com/embed/qfXkF-W09zk?si=UEUSbWlhsGaJ87yQ";
-    default:
-      return "https://www.youtube-nocookie.com/embed/2ITezMkbAqE?si=Kn9k4ju5HTX5S6JJ";
-  }
-});
+
 </script>
 
 <style scoped>
