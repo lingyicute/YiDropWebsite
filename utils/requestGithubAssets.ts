@@ -15,7 +15,7 @@ export interface Assets {
 }
 
 export async function requestGithubAssets(): Promise<Array<Assets>> {
-  const apiURL = `https://api.github.com/repos/localsend/localsend/releases`;
+  const apiURL = `https://api.github.com/repos/lingyicute/yidrop/releases`;
   return await fetch(apiURL, {
     method: "GET",
     headers: {

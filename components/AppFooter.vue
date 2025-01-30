@@ -2,16 +2,7 @@
   <div
     class="bg-gray-100 pb-10 pt-8 text-center text-sm dark:bg-gray-800 dark:text-gray-300"
   >
-    <p>
-      {{ t("footer.underlicense") }}
-      <a
-        href="https://www.apache.org/licenses/LICENSE-2.0"
-        class="text-decoration-none text-teal-600 dark:text-teal-400"
-        target="_blank"
-        >{{ $t("footer.license") }}</a
-      >
-    </p>
-    <p>&copy; 2022 - {{ year }} Tien Do Nam</p>
+    <p>&copy; {{ year }} lingyicute</p>
 
     <!-- Links -->
     <div class="mt-8 flex flex-wrap justify-center">
