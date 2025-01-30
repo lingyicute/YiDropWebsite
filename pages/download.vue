@@ -148,8 +148,10 @@ const { t } = useI18n();
 
 enum OS {
   windows = "Windows",
+  macos = "macOS",
   linux = "Linux",
   android = "Android",
+  ios = "iOS",
 }
 
 function detectOS(): OS {
@@ -205,8 +207,39 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
           url: assetsMap.value["zip"] ?? fallbackUrl,
         },
       ],
+      packageManagers: [
+        {
+          name: "Winget",
+          commands: ["winget install localsend"],
+        },
+        {
+          name: "Chocolatey",
+          commands: ["choco install localsend"],
+        },
+        {
+          name: "Scoop",
+          commands: ["scoop bucket add extras", "scoop install localsend"],
+        },
+      ],
+    },
+    [OS.macos]: {
+      stores: [appleStore],
+      binaries: [
+        {
+          name: "DMG",
+          url: assetsMap.value["dmg"] ?? fallbackUrl,
+        },
+      ],
+      packageManagers: [
+        {
+          name: "Homebrew",
+          commands: ["brew install --cask localsend"],
+        },
+        nix,
+      ],
     },
     [OS.linux]: {
+      stores: [],
       binaries: [
         {
           name: "TAR",
@@ -221,14 +254,64 @@ const downloadMetadata = computed<Record<OS, Download>>(() => {
           url: assetsMap.value["AppImage"] ?? fallbackUrl,
         },
       ],
+      packageManagers: [
+        {
+          name: "Flathub",
+          commands: [
+            "flatpak install flathub org.localsend.localsend_app",
+            "flatpak run org.localsend.localsend_app",
+          ],
+        },
+        nix,
+        {
+          name: "Snap",
+          commands: ["sudo snap install localsend"],
+        },
+        {
+          name: "AUR",
+          commands: ["yay -S localsend-bin"],
+        },
+      ],
     },
     [OS.android]: {
+      stores: [
+        `<a href='https://play.google.com/store/apps/details?id=org.localsend.localsend_app&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+          <img alt='Get it on Google Play'
+               src="${
+                 new URL(
+                   "~/assets/img/badges/google-play-badge.svg",
+                   import.meta.url
+                 ).href
+               }"
+               style="height: 60px"
+          />
+        </a>`,
+        `<a href="https://f-droid.org/packages/org.localsend.localsend_app">
+          <img alt="Get it on F-Droid" src="${
+            new URL("~/assets/img/badges/f-droid-badge.svg", import.meta.url)
+              .href
+          }" style="height: 60px">
+        </a>`,
+        `<a href="https://www.amazon.com/dp/B0BW6MP732">
+          <img alt="Get it on F-Droid" src="${
+            new URL(
+              "~/assets/img/badges/amazon-store-badge.svg",
+              import.meta.url
+            ).href
+          }" style="height: 59px">
+        </a>`,
+      ],
       binaries: [
         {
           name: "APK",
           url: assetsMap.value["apk"] ?? fallbackUrl,
         },
       ],
+      packageManagers: [],
+    },
+    [OS.ios]: {
+      stores: [appleStore],
+      binaries: [],
       packageManagers: [],
     },
   };
