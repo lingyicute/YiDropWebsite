@@ -1,1 +1,0 @@
-import{_ as o}from"./Dl4eeCqL.js";import{e as a,o as e,f as s,w as r,a as n}from"./CxvTveJx.js";import"./DVSnIRdx.js";import"./C092p1fs.js";const f=a({__name:"contact",setup(p){return(c,t)=>(e(),s(o,null,{default:r(()=>t[0]||(t[0]=[n("h1",{class:"text-xl"},"Contact: support@92li.us.kg",-1)])),_:1}))}});export{f as default};
