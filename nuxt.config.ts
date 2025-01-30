@@ -31,11 +31,11 @@ export default defineNuxtConfig({
   },
 
   site: {
-    url: "https://localsend.org",
+    url: "https://drop.92li.us.kg",
   },
 
   i18n: {
-    baseUrl: "https://localsend.org",
+    baseUrl: "https://drop.92li.us.kg",
     strategy: "prefix_except_default",
     defaultLocale: "en",
     pages: {

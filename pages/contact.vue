@@ -1,6 +1,6 @@
 <template>
   <LegalLayout>
-    <h1 class="text-xl">Contact: support@localsend.org</h1>
+    <h1 class="text-xl">Contact: support@92li.us.kg</h1>
   </LegalLayout>
 </template>
 

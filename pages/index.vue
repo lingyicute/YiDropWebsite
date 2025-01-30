@@ -143,7 +143,7 @@
       </div>
 
       <TextButton
-        href="https://github.com/localsend/website"
+        href="https://github.com/lingyicute/yidropwebsite"
         target="_blank"
         icon="material-symbols:build"
         class="mb-8 dark:text-gray-300"

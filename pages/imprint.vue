@@ -18,7 +18,7 @@
 
     <br>
     <h2>Kontakt:</h2>
-    <p>E-Mail: support@localsend.org</p>
+    <p>E-Mail: support@92li.us.kg</p>
     <p>oder zum <a href="https://tienisto.com/contact" class="underline">Kontaktformular</a></p>
   </LegalLayout>
 </template>

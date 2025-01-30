@@ -59,7 +59,7 @@
     <h2>Contact Us</h2>
     <p>
       If you have any questions about this Privacy Policy, do not hesitate to contact us by email:
-      support@localsend.org
+      support@92li.us.kg
     </p>
   </LegalLayout>
 </template>
