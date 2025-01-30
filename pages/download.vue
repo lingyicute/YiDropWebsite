@@ -1,5 +1,5 @@
 <template>
-  <SecondaryLayout :sub-title="t('download.title')">
+  <SecondaryLayoutX :sub-title="t('download.title')">
     <template v-slot:content>
       <!-- OS Buttons -->
       <div class="mt-8 flex flex-wrap justify-center dark:text-gray-300">
@@ -14,11 +14,11 @@
         </AppButton>
       </div>
     </template>
-  </SecondaryLayout>
+  </SecondaryLayoutX>
 </template>
 
 <script setup lang="ts">
-import SecondaryLayout from "~/components/layout/SecondaryLayout.vue";
+import SecondaryLayoutX from "~/components/layout/SecondaryLayoutX.vue";
 
 definePageMeta({
   title: "download.seo.title",

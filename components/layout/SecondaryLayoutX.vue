@@ -1,0 +1,65 @@
+<template>
+  <div>
+    <div
+      class="flex min-h-screen justify-center pb-12 pt-12 dark:text-gray-300"
+    >
+      <div class="flex flex-col items-center">
+        <NuxtLink :to="localePath({ path: '/' })">
+          <img
+            src="~/assets/img/logo-512.png"
+            alt="YiDrop Logo"
+            style="height: 200px"
+          />
+        </NuxtLink>
+
+        <h1 class="text-5xl font-black dark:text-white">YiDrop</h1>
+        <h2 class="text-2xl font-light dark:text-white">
+          {{ props.subTitle }}
+        </h2>
+
+        <slot name="tabs"></slot>
+
+        <slot name="back">
+          <NuxtLink :to="localePath({ path: '/' })" class="mt-8">
+            <TextButton
+                :icon="
+              direction === 'ltr'
+                ? 'material-symbols:arrow-back'
+                : 'material-symbols:arrow-forward'
+            "
+                class="dark:text-gray-300"
+            >
+              {{ $t("homepageButton") }}
+            </TextButton>
+          </NuxtLink>
+        </slot>
+      </div>
+    </div>
+
+    <div class="text-center dark:text-gray-300">
+      <TextButton
+        href="https://github.com/lingyicute/yidropwebsite"
+        target="_blank"
+        icon="material-symbols:build"
+        class="mb-8"
+      >
+        {{ t("improveWebsite") }}
+      </TextButton>
+    </div>
+  </div>
+</template>
+
+<script setup lang="ts">
+const props = defineProps({
+  subTitle: { type: String, required: true },
+});
+
+const { t } = useI18n();
+const localePath = useLocalePath();
+
+const head = useLocaleHead({
+  addDirAttribute: true,
+});
+
+const direction = head.value.htmlAttrs!.dir;
+</script>
