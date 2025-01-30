@@ -7,8 +7,8 @@
           v-for="os in OS"
           :key="os"
           class="mx-2 mb-4"
-          @click="setOS(os)"
-          :dark="selectedOS !== os"
+          @click="handleDownload(os)"
+          :dark="false"
         >
           {{ os }}
         </AppButton>
@@ -16,127 +16,12 @@
     </template>
 
     <template v-slot:content>
-      <h3 class="text-center text-2xl dark:text-white">
-        {{ t("download.subTitle", { os: selectedOS }) }}
-      </h3>
-
-      <div
-        v-if="selectedOS"
-        class="mt-4 grid grid-cols-12 gap-4 dark:text-gray-300"
-      >
-        <!-- App Stores -->
-        <div
-          class="col-span-12 rounded-lg bg-gray-100 p-4 dark:bg-gray-800 md:col-span-4"
-          v-if="downloadMetadata[selectedOS].stores.length !== 0"
-        >
-          <h3 class="text-xl font-bold dark:text-white">
-            {{ t("download.appStores") }}
-          </h3>
-          <p class="dark:text-gray-400">
-            {{ t("download.appStoresDescription") }}
-          </p>
-
-          <div
-            v-for="(store, index) in downloadMetadata[selectedOS].stores"
-            :key="index"
-            class="mt-4"
-          >
-            <div v-html="store" class="inline-block"></div>
-          </div>
-        </div>
-
-        <!-- Binaries -->
-        <div
-          class="col-span-12 rounded-lg bg-gray-100 p-4 dark:bg-gray-800 md:col-span-4"
-          v-if="downloadMetadata[selectedOS].binaries.length !== 0"
-        >
-          <h3 class="text-xl font-bold dark:text-white">
-            {{ t("download.binaries") }}
-          </h3>
-          <p class="mb-4 dark:text-gray-400">
-            {{ t("download.binariesDescription") }}
-          </p>
-
-          <div
-            v-for="binary in downloadMetadata[selectedOS].binaries"
-            :key="binary.name"
-            class="mt-2"
-          >
-            <TextButton
-              :href="binary.url"
-              icon="material-symbols:download"
-              class="dark:text-gray-300"
-            >
-              {{ binary.name }}
-            </TextButton>
-          </div>
-
-          <TextButton
-            href="https://github.com/lingyicute/yidrop/releases"
-            icon="material-symbols:history"
-            class="mt-2 dark:text-gray-300"
-          >
-            {{ t("download.allReleases") }}
-          </TextButton>
-        </div>
-
-        <!-- Package Managers -->
-        <div
-          class="col-span-12 rounded-lg bg-gray-100 p-4 dark:bg-gray-800"
-          :class="
-            downloadMetadata[selectedOS].stores.length !== 0
-              ? 'md:col-span-4'
-              : 'md:col-span-8'
-          "
-          v-if="downloadMetadata[selectedOS].packageManagers.length !== 0"
-        >
-          <h3 class="text-xl font-bold dark:text-white">
-            {{ t("download.packageManagers") }}
-          </h3>
-          <p class="dark:text-gray-400">
-            {{ t("download.packageManagersDescription") }}
-          </p>
-
-          <div
-            v-for="packageManager in downloadMetadata[selectedOS]
-              .packageManagers"
-            :key="packageManager.name"
-            class="mt-4"
-          >
-            <b class="dark:text-white">{{ packageManager.name }}:</b>
-            <div
-              class="mt-2 rounded-lg bg-gray-200 p-2 text-sm dark:bg-gray-700 dark:text-gray-300"
-            >
-              <code>
-                <span
-                  v-for="(command, index) in packageManager.commands"
-                  :key="index"
-                  class="cursor-pointer hover:bg-gray-300 dark:hover:bg-gray-600"
-                  @click="() => copyToClipboard(command)"
-                >
-                  <span class="text-gray-400 dark:text-gray-500 select-none">
-                    &dollar; </span>{{ command }}<br />
-                </span>
-              </code>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div v-else style="height: 300px"></div>
-
-      <!-- Snackbar -->
-      <div
-        class="absolute bottom-12 left-1/2 -translate-x-1/2 transform rounded-lg bg-teal-950 px-4 py-2 text-white transition-opacity"
-        :class="copyToClipboardSnackbar ? 'opacity-100' : 'hidden'"
-      >
-        {{ t("download.copiedToClipboard") }}
-      </div>
+      <div style="height: 300px"></div>
     </template>
   </SecondaryLayout>
 </template>
 
 <script setup lang="ts">
-import TextButton from "~/components/TextButton.vue";
 import SecondaryLayout from "~/components/layout/SecondaryLayout.vue";
 
 definePageMeta({
@@ -148,207 +33,34 @@ const { t } = useI18n();
 
 enum OS {
   windows = "Windows",
-  macos = "macOS",
   linux = "Linux",
   android = "Android",
-  ios = "iOS",
 }
-
-function detectOS(): OS {
-  const userAgent = navigator.userAgent;
-  const substrings = ["Win", "Macintosh", "X11", "Android", "iP"];
-  const idx = substrings.findIndex((s) => userAgent.includes(s));
-  return idx !== -1 ? Object.values(OS)[idx] : OS.windows;
-}
-
-const selectedOS = ref<OS | null>(null);
-
-interface PackageManager {
-  name: string;
-  commands: string[];
-}
-
-interface Binaries {
-  name: string;
-  url: string;
-}
-
-interface Download {
-  stores: string[];
-  binaries: Binaries[];
-  packageManagers: PackageManager[];
-}
-
-const appleStore = `<a href="https://apps.apple.com/us/app/localsend/id1661733229">
-    <img alt="Download on the App Store" src="${
-      new URL("~/assets/img/badges/apple-store-badge.svg", import.meta.url).href
-    }" style="height: 64px">
-</a>`;
-
-const nix = {
-  name: "Nix",
-  commands: ["nix-shell -p localsend", "pkgs.localsend # Config"],
-};
 
 const assetsMap: Ref<{ [key: string]: string }> = ref({});
-const fallbackUrl = "https://github.com/lingyicute/yidrop/releases";
+const fallbackUrl = "https://github.com/lingyicute/yidrop/releases/latest";
 
-const downloadMetadata = computed<Record<OS, Download>>(() => {
-  return {
-    [OS.windows]: {
-      stores: [],
-      binaries: [
-        {
-          name: "EXE",
-          url: assetsMap.value["exe"] ?? fallbackUrl,
-        },
-        {
-          name: t("download.zip"),
-          url: assetsMap.value["zip"] ?? fallbackUrl,
-        },
-      ],
-      packageManagers: [
-        {
-          name: "Winget",
-          commands: ["winget install localsend"],
-        },
-        {
-          name: "Chocolatey",
-          commands: ["choco install localsend"],
-        },
-        {
-          name: "Scoop",
-          commands: ["scoop bucket add extras", "scoop install localsend"],
-        },
-      ],
-    },
-    [OS.macos]: {
-      stores: [appleStore],
-      binaries: [
-        {
-          name: "DMG",
-          url: assetsMap.value["dmg"] ?? fallbackUrl,
-        },
-      ],
-      packageManagers: [
-        {
-          name: "Homebrew",
-          commands: ["brew install --cask localsend"],
-        },
-        nix,
-      ],
-    },
-    [OS.linux]: {
-      stores: [],
-      binaries: [
-        {
-          name: "TAR",
-          url: assetsMap.value["gz"] ?? fallbackUrl,
-        },
-        {
-          name: "DEB",
-          url: assetsMap.value["deb"] ?? fallbackUrl,
-        },
-        {
-          name: "AppImage",
-          url: assetsMap.value["AppImage"] ?? fallbackUrl,
-        },
-      ],
-      packageManagers: [
-        {
-          name: "Flathub",
-          commands: [
-            "flatpak install flathub org.localsend.localsend_app",
-            "flatpak run org.localsend.localsend_app",
-          ],
-        },
-        nix,
-        {
-          name: "Snap",
-          commands: ["sudo snap install localsend"],
-        },
-        {
-          name: "AUR",
-          commands: ["yay -S localsend-bin"],
-        },
-      ],
-    },
-    [OS.android]: {
-      stores: [
-        `<a href='https://play.google.com/store/apps/details?id=org.localsend.localsend_app&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
-          <img alt='Get it on Google Play'
-               src="${
-                 new URL(
-                   "~/assets/img/badges/google-play-badge.svg",
-                   import.meta.url
-                 ).href
-               }"
-               style="height: 60px"
-          />
-        </a>`,
-        `<a href="https://f-droid.org/packages/org.localsend.localsend_app">
-          <img alt="Get it on F-Droid" src="${
-            new URL("~/assets/img/badges/f-droid-badge.svg", import.meta.url)
-              .href
-          }" style="height: 60px">
-        </a>`,
-        `<a href="https://www.amazon.com/dp/B0BW6MP732">
-          <img alt="Get it on F-Droid" src="${
-            new URL(
-              "~/assets/img/badges/amazon-store-badge.svg",
-              import.meta.url
-            ).href
-          }" style="height: 59px">
-        </a>`,
-      ],
-      binaries: [
-        {
-          name: "APK",
-          url: assetsMap.value["apk"] ?? fallbackUrl,
-        },
-      ],
-      packageManagers: [],
-    },
-    [OS.ios]: {
-      stores: [appleStore],
-      binaries: [],
-      packageManagers: [],
-    },
-  };
-});
+function handleDownload(os: OS) {
+  if (os === OS.linux) {
+    window.location.href = fallbackUrl;
+    return;
+  }
 
-const router = useRouter();
-
-function setOS(os: OS) {
-  selectedOS.value = os;
-
-  // set to query
-  router.push({ query: { os: os.toLowerCase() } });
-}
-
-const copyToClipboardSnackbar = ref(false);
-
-function copyToClipboard(text: string) {
-  navigator.clipboard.writeText(text);
-  copyToClipboardSnackbar.value = true;
-  setTimeout(() => (copyToClipboardSnackbar.value = false), 3000);
+  const fileExtension = os === OS.windows ? 'exe' : 'apk';
+  const downloadUrl = assetsMap.value[fileExtension] ?? fallbackUrl;
+  window.location.href = downloadUrl;
 }
 
 onMounted(async () => {
-  const os = (router.currentRoute.value.query.os ?? '').toLowerCase();
-  selectedOS.value = Object.values(OS).find((o) => o.toLowerCase() === os) ?? detectOS();
-
   const assetsMetadata = await requestGithubAssets();
   assetsMap.value = assetsMetadata.reduce<{ [key: string]: string }>(
     (acc, asset) => {
       const key = asset.name.split(".").pop();
       if (!key) {
-        // Skip assets without extension
         return acc;
       }
 
       if (key === "apk" && !asset.name.includes("arm64v8")) {
-        // Skip APKs that are not for arm64v8 architecture
         return acc;
       }
 
