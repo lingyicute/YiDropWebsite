@@ -14,10 +14,6 @@
         </AppButton>
       </div>
     </template>
-
-    <template v-slot:content>
-      <div style="height: 300px"></div>
-    </template>
   </SecondaryLayout>
 </template>
 
