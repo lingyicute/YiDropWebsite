@@ -1,6 +1,6 @@
 <template>
   <SecondaryLayoutX :sub-title="t('download.title')">
-    <template v-slot:content>
+    <template v-slot:tabs>
       <!-- OS Buttons -->
       <div class="mt-8 flex flex-wrap justify-center dark:text-gray-300">
         <AppButton
