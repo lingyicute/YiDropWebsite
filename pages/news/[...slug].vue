@@ -13,7 +13,7 @@
 
       <TextButton
           v-if="router.currentRoute.value.fullPath.startsWith('/news/releases')"
-          href="https://github.com/localsend/localsend/blob/main/app/assets/CHANGELOG.md"
+          href="https://github.com/lingyicute/yidrop/blob/main/app/assets/CHANGELOG.md"
           class="mt-4 underline"
       >
         Checkout the full changelog

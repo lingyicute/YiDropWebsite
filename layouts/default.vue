@@ -6,7 +6,7 @@ const localeHead = useLocaleHead({
   identifierAttribute: 'id',
   addSeoAttributes: true
 })
-const title = computed(() => route.meta.title ? t(route.meta.title) : 'LocalSend')
+const title = computed(() => route.meta.title ? t(route.meta.title) : 'YiDrop')
 const description = computed(() => route.meta.description ? t(route.meta.description) : null)
 </script>
 

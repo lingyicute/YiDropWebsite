@@ -1,4 +1,4 @@
-# LocalSend Website
+# YiDrop Website
 
 ## Setup
 

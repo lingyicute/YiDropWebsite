@@ -1,8 +1,8 @@
 {
   "home": {
     "seo": {
-      "title": "LocalSend: 近くのデバイスとファイルを共有",
-      "description": "LocalSendは無料、オープンソース、クロスプラットフォーム対応のファイル共有ツールで、近くのデバイスとファイルを共有することができます。"
+      "title": "YiDrop: 近くのデバイスとファイルを共有",
+      "description": "YiDropは無料、オープンソース、クロスプラットフォーム対応のファイル共有ツールで、近くのデバイスとファイルを共有することができます。"
     },
     "slogan1": "近くのデバイスとファイルを共有",
     "slogan2": "無料、オープンソース、クロスプラットフォーム対応",
@@ -13,9 +13,9 @@
       "decentralized": "分散型",
       "decentralizedDescription": "中央サーバーを介さずファイルを共有できます。ファイルの転送は完全にピアツーピアです。",
       "crossPlatform": "クロスプラットフォーム対応",
-      "crossPlatformDescription": "LocalSendはWindows、macOS、Linux、Android、iOSで利用できます。",
+      "crossPlatformDescription": "YiDropはWindows、macOS、Linux、Android、iOSで利用できます。",
       "free": "無料",
-      "freeDescription": "LocalSendは無料で利用できます。広告、トラッキング、隠れた費用もありません。",
+      "freeDescription": "YiDropは無料で利用できます。広告、トラッキング、隠れた費用もありません。",
       "openSource": "オープンソース",
       "openSourceDescription": "ソースコードは一般に公開されており、誰でもプロジェクトに貢献できます。",
       "secure": "セキュア",
@@ -24,12 +24,12 @@
       "easyDescription": "登録不要のシンプルなユーザーインターフェース。他のデバイスは自動的に検出されます。"
     },
     "mentioned": "世界中で紹介されています",
-    "get": "LocalSendを入手"
+    "get": "YiDropを入手"
   },
   "download": {
     "seo": {
-      "title": "LocalSend - ダウンロード",
-      "description": "Windows、macOS、Linux、Android、iOS用のLocalSendをダウンロードします。"
+      "title": "YiDrop - ダウンロード",
+      "description": "Windows、macOS、Linux、Android、iOS用のYiDropをダウンロードします。"
     },
     "title": "ダウンロード",
     "subTitle": "{os}用のダウンロード",
@@ -45,8 +45,8 @@
   },
   "community": {
     "seo": {
-      "title": "LocalSend - コミュニティー",
-      "description": "LocalSendについて質問したり、プロジェクトに参加、貢献しましょう。"
+      "title": "YiDrop - コミュニティー",
+      "description": "YiDropについて質問したり、プロジェクトに参加、貢献しましょう。"
     },
     "title": "コミュニティー",
     "getHelp": "質問する",

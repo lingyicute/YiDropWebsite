@@ -1,8 +1,8 @@
 {
   "home": {
     "seo": {
-      "title": "LocalSend: Sdílejte soubory do okolních zařízení",
-      "description": "LocalSend je bezplatný, open-source, multiplatformní nástroj pro sdílení souborů, který umožňuje sdílet soubory do okolních zařízení."
+      "title": "YiDrop: Sdílejte soubory do okolních zařízení",
+      "description": "YiDrop je bezplatný, open-source, multiplatformní nástroj pro sdílení souborů, který umožňuje sdílet soubory do okolních zařízení."
     },
     "slogan1": "Sdílejte soubory do okolních zařízení.",
     "slogan2": "Bezplatný, open-source, multiplatformní.",
@@ -13,9 +13,9 @@
       "decentralized": "Decentralizovaný",
       "decentralizedDescription": "Sdílejte soubory bez centrálního serveru. PřeShare files without a central server. Přenos souborů probíhá zcela peer-to-peer.",
       "crossPlatform": "Multiplatformní",
-      "crossPlatformDescription": "LocalSend je dostupný pro Windows, macOS, Linux, Android a iOS.",
+      "crossPlatformDescription": "YiDrop je dostupný pro Windows, macOS, Linux, Android a iOS.",
       "free": "Bezplatný",
-      "freeDescription": "LocalSend je zcela zdarma. Žádné reklamy, žádné sledování, žádné skryté poplatky.",
+      "freeDescription": "YiDrop je zcela zdarma. Žádné reklamy, žádné sledování, žádné skryté poplatky.",
       "openSource": "Otevřený",
       "openSourceDescription": "Zdrojový kód je veřejně dostupný. Do projektu může přispět každý.",
       "secure": "Bezpečný",
@@ -24,12 +24,12 @@
       "easyDescription": "Jednoduché uživatelské rozhraní bez registrace. Ostatní zařízení se objevují automaticky."
     },
     "mentioned": "Používán po celém světě",
-    "get": "Získejte LocalSend"
+    "get": "Získejte YiDrop"
   },
   "download": {
     "seo": {
-      "title": "LocalSend - Stáhnout",
-      "description": "Stáhněte si LocalSend pro Windows, macOS, Linux, Android a iOS."
+      "title": "YiDrop - Stáhnout",
+      "description": "Stáhněte si YiDrop pro Windows, macOS, Linux, Android a iOS."
     },
     "title": "Ke stažení",
     "subTitle": "Stáhnout pro {os}",
@@ -45,8 +45,8 @@
   },
   "community": {
     "seo": {
-      "title": "LocalSend - Komunita",
-      "description": "Získejte pomoc, zapojte se a přispějte do LocalSend."
+      "title": "YiDrop - Komunita",
+      "description": "Získejte pomoc, zapojte se a přispějte do YiDrop."
     },
     "title": "Komunita",
     "getHelp": "Získejte pomoc",

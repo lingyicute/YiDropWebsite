@@ -1,8 +1,8 @@
 {
   "home": {
     "seo": {
-      "title": "LocalSend: مشاركة الملفات مع الأجهزة القريبة",
-      "description": "LocalSend هي أداة مجانية ومفتوحة المصدر لمشاركة الملفات عبر الأنظمة الأساسية تتيح لك مشاركة الملفات مع الأجهزة القريبة."
+      "title": "YiDrop: مشاركة الملفات مع الأجهزة القريبة",
+      "description": "YiDrop هي أداة مجانية ومفتوحة المصدر لمشاركة الملفات عبر الأنظمة الأساسية تتيح لك مشاركة الملفات مع الأجهزة القريبة."
     },
     "slogan1": "شارك الملفات مع الأجهزة القريبة.",
     "slogan2": "مجاني، مفتوح المصدر، متعدد المنصات.",
@@ -13,9 +13,9 @@
       "decentralized": "لامركزية",
       "decentralizedDescription": "مشاركة الملفات بدون خادم مركزي. يتم نقل الملفات بالكامل من ندّ لِندّ.",
       "crossPlatform": "متعدد المنصات",
-      "crossPlatformDescription": "LocalSend متاح لأنظمة التشغيل Windows و macOS و Linux و Android و iOS.",
+      "crossPlatformDescription": "YiDrop متاح لأنظمة التشغيل Windows و macOS و Linux و Android و iOS.",
       "free": "مجانًا",
-      "freeDescription": "LocalSend مجاني للاستخدام. لا إعلانات، لا تتبُع، لا تكاليف خفية.",
+      "freeDescription": "YiDrop مجاني للاستخدام. لا إعلانات، لا تتبُع، لا تكاليف خفية.",
       "openSource": "مفتوح المصدر",
       "openSourceDescription": "المصدر البرمجي متاح للجمهور. يمكن للجميع المساهمة في المشروع.",
       "secure": "آمن",
@@ -24,12 +24,12 @@
       "easyDescription": "واجهة مستخدم بسيطة دون تسجيل. يتم اكتشاف الأجهزة الأخرى تلقائيًا."
     },
     "mentioned": "ذُكر في جميع أنحاء العالم",
-    "get": "احصل على LocalSend"
+    "get": "احصل على YiDrop"
   },
   "download": {
     "seo": {
-      "title": "LocalSend - التنزيلات",
-      "description": "نزّل LocalSend لأنظمة التشغيل Windows و macOS و Linux و Android و iOS."
+      "title": "YiDrop - التنزيلات",
+      "description": "نزّل YiDrop لأنظمة التشغيل Windows و macOS و Linux و Android و iOS."
     },
     "title": "التنزيلات",
     "subTitle": "تنزيلات {os}",
@@ -45,8 +45,8 @@
   },
   "community": {
     "seo": {
-      "title": "LocalSend - المجتمع",
-      "description": "احصل على المساعدة، وشارك، وساهم في LocalSend."
+      "title": "YiDrop - المجتمع",
+      "description": "احصل على المساعدة، وشارك، وساهم في YiDrop."
     },
     "title": "المجتمع",
     "getHelp": "احصل على مُساعدة",

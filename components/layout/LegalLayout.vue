@@ -7,11 +7,11 @@
       <div class="flex items-center">
         <img
           src="~/assets/img/logo-512.png"
-          alt="LocalSend Logo"
+          alt="YiDrop Logo"
           style="height: 40px"
           class="inline-block"
         />
-        <span class="ms-2 text-3xl font-bold dark:text-white">LocalSend</span>
+        <span class="ms-2 text-3xl font-bold dark:text-white">YiDrop</span>
       </div>
     </NuxtLink>
     <slot></slot>

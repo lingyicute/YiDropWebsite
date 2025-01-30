@@ -17,7 +17,7 @@
 
     <h2>Personal Data Collection and Use</h2>
     <p>
-      LocalSend is an open-source application, and we are dedicated to user privacy. In line with this, we confirm that
+      YiDrop is an open-source application, and we are dedicated to user privacy. In line with this, we confirm that
       we do not collect, store, process, or use any personal data or non-personal data from you while you use our
       application.
       <br>
@@ -30,7 +30,7 @@
 
     <h2>Security</h2>
     <p>
-      As LocalSend does not collect any data, there are no concerns regarding the transmission or storage of data.
+      As YiDrop does not collect any data, there are no concerns regarding the transmission or storage of data.
       However, we still prioritize the security of our application and the trust you place in us by using it.
     </p>
 
@@ -38,7 +38,7 @@
 
     <h2>Third-Party Data Collection</h2>
     <p>
-      While LocalSend itself does not collect any personal or non-personal data, it is important to note that users may
+      While YiDrop itself does not collect any personal or non-personal data, it is important to note that users may
       still be subject to data collection by third parties such as operating systems (e.g. Android, iOS), device
       manufacturers, and other apps that have permissions to access device data. We have no control over and assume no
       responsibility for the data practices of these third parties. We encourage users to review the privacy policies of

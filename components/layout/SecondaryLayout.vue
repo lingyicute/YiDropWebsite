@@ -7,12 +7,12 @@
         <NuxtLink :to="localePath({ path: '/' })">
           <img
             src="~/assets/img/logo-512.png"
-            alt="LocalSend Logo"
+            alt="YiDrop Logo"
             style="height: 200px"
           />
         </NuxtLink>
 
-        <h1 class="text-5xl font-black dark:text-white">LocalSend</h1>
+        <h1 class="text-5xl font-black dark:text-white">YiDrop</h1>
         <h2 class="text-2xl font-light dark:text-white">
           {{ props.subTitle }}
         </h2>

@@ -1,8 +1,8 @@
 {
   "home": {
     "seo": {
-      "title": "LocalSend：與附近的裝置分享檔案",
-      "description": "LocalSend 是一款免費、開源、跨平台的檔案分享工具，可讓您與附近的裝置分享檔案。"
+      "title": "YiDrop：與附近的裝置分享檔案",
+      "description": "YiDrop 是一款免費、開源、跨平台的檔案分享工具，可讓您與附近的裝置分享檔案。"
     },
     "slogan1": "將檔案分享至附近的裝置",
     "slogan2": "免費、開源、跨平台",
@@ -13,9 +13,9 @@
       "decentralized": "分散式",
       "decentralizedDescription": "無須中央伺服器即可分享檔案，檔案的傳輸完全「點對點」。",
       "crossPlatform": "跨平台",
-      "crossPlatformDescription": "LocalSend 可在 Windows、macOS、Linux、Android 及 iOS 上使用。",
+      "crossPlatformDescription": "YiDrop 可在 Windows、macOS、Linux、Android 及 iOS 上使用。",
       "free": "免費",
-      "freeDescription": "LocalSend 完全免費，並且沒有廣告、不會追蹤使用記錄、也沒有隱藏扣款。",
+      "freeDescription": "YiDrop 完全免費，並且沒有廣告、不會追蹤使用記錄、也沒有隱藏扣款。",
       "openSource": "開源",
       "openSourceDescription": "原始碼可公開存取，每個人都可參與到此專案。",
       "secure": "安全",
@@ -24,12 +24,12 @@
       "easyDescription": "簡易的使用者介面，無須註冊，可以自動偵測其他裝置。"
     },
     "mentioned": "享譽全球",
-    "get": "取得 LocalSend"
+    "get": "取得 YiDrop"
   },
   "download": {
     "seo": {
-      "title": "LocalSend - 下載",
-      "description": "下載適用於 Windows、macOS、Linux、Android 及 iOS 的 LocalSend。"
+      "title": "YiDrop - 下載",
+      "description": "下載適用於 Windows、macOS、Linux、Android 及 iOS 的 YiDrop。"
     },
     "title": "下載",
     "subTitle": "{os} 版下載",
@@ -45,8 +45,8 @@
   },
   "community": {
     "seo": {
-      "title": "LocalSend - 社群",
-      "description": "取得說明、參與其中、並為 LocalSend 的開發作出貢獻。"
+      "title": "YiDrop - 社群",
+      "description": "取得說明、參與其中、並為 YiDrop 的開發作出貢獻。"
     },
     "title": "社群",
     "getHelp": "取得說明",

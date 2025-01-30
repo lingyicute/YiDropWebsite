@@ -1,8 +1,8 @@
 {
   "home": {
     "seo": {
-      "title": "LocalSend: Berbagi fail ke perangkat sekitar",
-      "description": "LocalSend gratis, sumber-terbuka, alat berbagi fail antar-perangkat yang memungkinkan kamu untuk berbagi dengan perangkat sekitar."
+      "title": "YiDrop: Berbagi fail ke perangkat sekitar",
+      "description": "YiDrop gratis, sumber-terbuka, alat berbagi fail antar-perangkat yang memungkinkan kamu untuk berbagi dengan perangkat sekitar."
     },
     "slogan1": "Berbagi fail ke perangkat sekitar.",
     "slogan2": "Gratis, sumber-terbuka, antar-perangkat.",
@@ -13,9 +13,9 @@
       "decentralized": "Tidak Terpusat",
       "decentralizedDescription": "Berbagi fail tanpa server pusat. Pemindahan fail dilakukan utuh secara pribadi-ke-pribadi.",
       "crossPlatform": "Antar-Perangkat",
-      "crossPlatformDescription": "LocalSend tersedia untuk Windows, macOS, Linux, Android, dan iOS.",
+      "crossPlatformDescription": "YiDrop tersedia untuk Windows, macOS, Linux, Android, dan iOS.",
       "free": "Gratis",
-      "freeDescription": "LocalSend gratis digunakan. Bebas iklan, bebas pelacakan, tanpa biaya tersembunyi.",
+      "freeDescription": "YiDrop gratis digunakan. Bebas iklan, bebas pelacakan, tanpa biaya tersembunyi.",
       "openSource": "Sumber Terbuka",
       "openSourceDescription": "Kode sumber tersedia secara umum. Semua orang dapat berkontribusi terhadap projek.",
       "secure": "Aman",
@@ -24,12 +24,12 @@
       "easyDescription": "Antarmuka pengguna sederhana tanpa mendaftar. Perangkat lain ditemukan secara otomatis."
     },
     "mentioned": "Disebut di seluruh dunia",
-    "get": "Dapatkan LocalSend"
+    "get": "Dapatkan YiDrop"
   },
   "download": {
     "seo": {
-      "title": "LocalSend - Unduh",
-      "description": "Unduh LocalSend untuk Windows, macOS, Linux, Android, dan iOS."
+      "title": "YiDrop - Unduh",
+      "description": "Unduh YiDrop untuk Windows, macOS, Linux, Android, dan iOS."
     },
     "title": "Unduh",
     "subTitle": "{os} Unduh",
@@ -45,8 +45,8 @@
   },
   "community": {
     "seo": {
-      "title": "LocalSend - Komunitas",
-      "description": "Dapatkan bantuan, ikut terlibat, dan kontribusi terhadap LocalSend."
+      "title": "YiDrop - Komunitas",
+      "description": "Dapatkan bantuan, ikut terlibat, dan kontribusi terhadap YiDrop."
     },
     "title": "Komunitas",
     "getHelp": "Dapatkan Bantuan",

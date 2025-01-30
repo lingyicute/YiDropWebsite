@@ -12,7 +12,7 @@
             <img
               id="logo"
               src="~/assets/img/logo-512.png"
-              alt="LocalSend Logo"
+              alt="YiDrop Logo"
               class="h-52 object-contain md:h-40 lg:h-40 xl:h-48 2xl:h-56"
             />
           </div>
@@ -24,7 +24,7 @@
               <h1
                 class="text-center text-5xl font-black dark:text-white sm:text-5xl md:text-start xl:text-7xl 2xl:text-8xl"
               >
-                LocalSend
+                YiDrop
               </h1>
               <h2
                 class="slogan mt-2 px-4 text-center text-xl font-light dark:text-gray-300 md:px-0 md:text-start md:text-xl xl:text-2xl 2xl:text-3xl"
@@ -46,11 +46,6 @@
                     :dark="true"
                   >
                     {{ t("home.download") }}
-                  </AppButton>
-                </NuxtLink>
-                <NuxtLink :to="localePath({ path: '/community' })">
-                  <AppButton icon="material-symbols:group" :dark="true">
-                    {{ t("home.community") }}
                   </AppButton>
                 </NuxtLink>
               </div>
@@ -127,22 +122,6 @@
         />
       </div>
 
-      <h2 class="mt-24 text-center text-3xl font-bold dark:text-white">
-        {{ t("home.mentioned") }}
-      </h2>
-      <InfiniteHorizontalScroll
-        class="mt-8 w-full [&_a]:mx-4 [&_img]:max-w-none"
-      >
-        <div v-for="article in mentionedArticles" :key="article.title">
-          <MentionedCard
-            :title="article.title"
-            :description="article.description"
-            :language="article.language"
-            :url="article.url"
-          />
-        </div>
-      </InfiniteHorizontalScroll>
-
       <div class="mt-8" v-if="locale !== 'zh-CN'">
         <!-- YouTube video; We disable this for mainland China because YouTube is not available there. -->
         <iframe width="560" height="315" :src="youtubeVideo"
@@ -198,75 +177,6 @@ onMounted(() => {
     navigateTo("/contact");
   }
 });
-
-interface MentionedArticle {
-  title: string;
-  description: string;
-  language: string;
-  url: string;
-}
-
-const mentionedArticles: MentionedArticle[] = [
-  {
-    title: "LocalSend: An Open-Source AirDrop Alternative For Everyone!",
-    description: "It's FOSS",
-    language: "twemoji:flag-united-states",
-    url: "https://news.itsfoss.com/localsend/",
-  },
-  {
-    title: "Mit Localsend lassen sich Dateien schnell im WLAN teilen",
-    description: "DataCenter-Insider",
-    language: "twemoji:flag-germany",
-    url: "https://www.datacenter-insider.de/mit-localsend-lassen-sich-dateien-schnell-im-wlan-teilen-a-a3b134cc1f9960fbfced8c556ed239b8/",
-  },
-  {
-    title:
-      "LocalSend – 无联网，开源跨平台的局域网文件互传工具[2023年的第一个精选]",
-    description: "APPINN",
-    language: "twemoji:flag-china",
-    url: "https://www.appinn.com/localsend/",
-  },
-  {
-    title:
-      "Cette application universelle offre un partage de fichiers inspiré d’AirDrop à tous vos appareils",
-    description: "01net",
-    language: "twemoji:flag-france",
-    url: "https://www.01net.com/astuces/cette-application-universelle-offre-un-partage-de-fichiers-inspire-dairdrop-a-tous-vos-appareils.html",
-  },
-  {
-    title:
-      "クロスプラットフォームに対応したファイル共有ソフト！「LocalSend」。",
-    description: "gigafree.net",
-    language: "twemoji:flag-japan",
-    url: "https://www.gigafree.net/internet/share/LocalSend.html",
-  },
-  {
-    title: "LocalSend: Transfiere archivos del móvil al ordenador, y viceversa",
-    description: "Neoteo",
-    language: "twemoji:flag-spain",
-    url: "https://www.neoteo.com/localsend-transfiere-archivos-del-movil-al-ordenador-y-viceversa/",
-  },
-  {
-    title:
-      "LocalSend — бесплатная программа для обмена файлами и текстом через WiFi",
-    description: "alexandertokarev.ru",
-    language: "twemoji:flag-russia",
-    url: "https://alexandertokarev.ru/all/localsend-besplatnaya-programma-dlya-obmena-faylami-cherez-wifi/",
-  },
-  {
-    title: "대용량 파일 전송 끝판왕 크로스플랫폼 LocalSend",
-    description: "naver.com",
-    language: "twemoji:flag-south-korea",
-    url: "https://m.blog.naver.com/vavaras/223352646162",
-  },
-  {
-    title:
-      "Invia file in modo sicuro sulla rete locale con l’app LocalSend multipiattaforma",
-    description: "Guidetti Informatica",
-    language: "twemoji:flag-italy",
-    url: "https://www.guidetti-informatica.net/2023/03/invia-file-in-modo-sicuro-sulla-rete-locale-con-lapp-localsend-multipiattaforma/",
-  },
-];
 
 const youtubeVideo = computed(() => {
   switch (locale.value) {

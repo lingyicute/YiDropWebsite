@@ -1,8 +1,8 @@
 {
   "home": {
     "seo": {
-      "title": "LocalSend: Chia sẻ tập tin với các thiết bị gần bạn",
-      "description": "LocalSend là một công cụ miễn phí, đa nền tảng, mã nguồn mở, cho phép bạn chia sẻ tập tin với các thiết bị gần bạn."
+      "title": "YiDrop: Chia sẻ tập tin với các thiết bị gần bạn",
+      "description": "YiDrop là một công cụ miễn phí, đa nền tảng, mã nguồn mở, cho phép bạn chia sẻ tập tin với các thiết bị gần bạn."
     },
     "slogan1": "Chia sẻ tập tin với các thiết bị gần bạn.",
     "slogan2": "Miễn phí, mã nguồn mở, đa nền tảng.",
@@ -13,23 +13,23 @@
       "decentralized": "Phi trung tâm",
       "decentralizedDescription": "Chia sẻ tập tin mà không cần máy chủ trung tâm. Truyền tải tập tin trên mạng ngang hàng (peer-to-peer).",
       "crossPlatform": "Đa nền tảng",
-      "crossPlatformDescription": "LocalSend có sẵn trên Windows, macOS, Linux, Android và iOS.",
+      "crossPlatformDescription": "YiDrop có sẵn trên Windows, macOS, Linux, Android và iOS.",
       "free": "Miễn phí",
-      "freeDescription": "LocalSend là phần mềm miễn phí. Không có quảng cáo, không theo dõi, không phí ẩn.",
+      "freeDescription": "YiDrop là phần mềm miễn phí. Không có quảng cáo, không theo dõi, không phí ẩn.",
       "openSource": "Mã nguồn mở",
-      "openSourceDescription": "Mã nguồn của LocalSend là công khai. Mọi người đều có thể đóng góp.",
+      "openSourceDescription": "Mã nguồn của YiDrop là công khai. Mọi người đều có thể đóng góp.",
       "secure": "An toàn",
       "secureDescription": "Mã hóa theo qui trình đầu cuối đảm bảo an toàn và bảo vệ dữ liệu.",
       "easy": "Dễ sử dụng",
       "easyDescription": "Giao diện đơn giản mà không cần đăng ký. Chia sẻ tập tin dễ dàng."
     },
     "mentioned": "Được biết đến trên toàn thế giới",
-    "get": "Tải LocalSend"
+    "get": "Tải YiDrop"
   },
   "download": {
     "seo": {
-      "title": "LocalSend - Tải xuống",
-      "description": "Tải LocalSend về các hệ điều hành Windows, macOS, Linux, Android và iOS."
+      "title": "YiDrop - Tải xuống",
+      "description": "Tải YiDrop về các hệ điều hành Windows, macOS, Linux, Android và iOS."
     },
     "title": "Tải xuống",
     "subTitle": "Tải về {os}",
@@ -45,8 +45,8 @@
   },
   "community": {
     "seo": {
-      "title": "Cộng đồng LocalSend",
-      "description": "Nhận sự trợ giúp, tham gia và đóng góp vào dự án LocalSend."
+      "title": "Cộng đồng YiDrop",
+      "description": "Nhận sự trợ giúp, tham gia và đóng góp vào dự án YiDrop."
     },
     "title": "Cộng đồng",
     "getHelp": "Nhận sự trợ giúp",

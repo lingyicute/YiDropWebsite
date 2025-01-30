@@ -1,8 +1,8 @@
 {
   "home": {
     "seo": {
-      "title": "LocalSend: Delite fajlove sa uređajima u blizini",
-      "description": "LocalSend je besplatan, otvorenog koda, višeplatformski program za deljenje fajlova koji vam omogućava da delite fajlove sa uređajima u blizini."
+      "title": "YiDrop: Delite fajlove sa uređajima u blizini",
+      "description": "YiDrop je besplatan, otvorenog koda, višeplatformski program za deljenje fajlova koji vam omogućava da delite fajlove sa uređajima u blizini."
     },
     "slogan1": "Delite fajlove sa uređajima u blizini.",
     "slogan2": "Besplatan, otvorenog koda, višeplatformski.",
@@ -13,9 +13,9 @@
       "decentralized": "Decentralizovan",
       "decentralizedDescription": "Delite fajlove bez centralnog servera. Razmena fajlova je potpuno peer-to-peer.",
       "crossPlatform": "Višeplatformski",
-      "crossPlatformDescription": "LocalSend je dostupan za Windows, macOS, Linux, Android i iOS.",
+      "crossPlatformDescription": "YiDrop je dostupan za Windows, macOS, Linux, Android i iOS.",
       "free": "Besplatan",
-      "freeDescription": "LocalSend je besplatan za upotrebu. Nema oglasa, nema praćenja, nema skrivenih troškova.",
+      "freeDescription": "YiDrop je besplatan za upotrebu. Nema oglasa, nema praćenja, nema skrivenih troškova.",
       "openSource": "Otvorenog koda",
       "openSourceDescription": "Izvorni kôd je javno dostupan. Svako može da doprinese ovom projektu.",
       "secure": "Bezbedan",
@@ -24,12 +24,12 @@
       "easyDescription": "Jednostavan korisnički interfejs bez registracije. Drugi uređaji se otkrivaju automatski."
     },
     "mentioned": "Pominjan širom sveta",
-    "get": "Nabavite LocalSend"
+    "get": "Nabavite YiDrop"
   },
   "download": {
     "seo": {
-      "title": "LocalSend - Preuzimanja",
-      "description": "Preuzmite LocalSend za Windows, macOS, Linux, Android ili iOS."
+      "title": "YiDrop - Preuzimanja",
+      "description": "Preuzmite YiDrop za Windows, macOS, Linux, Android ili iOS."
     },
     "title": "Preuzimanja",
     "subTitle": "Preuzimanja za {os}",
@@ -45,8 +45,8 @@
   },
   "community": {
     "seo": {
-      "title": "LocalSend - Zajednica",
-      "description": "Potražite pomoć, uključite se, doprinesite LocalSend projektu."
+      "title": "YiDrop - Zajednica",
+      "description": "Potražite pomoć, uključite se, doprinesite YiDrop projektu."
     },
     "title": "Zajednica",
     "getHelp": "Potražite pomoć",

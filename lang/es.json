@@ -1,8 +1,8 @@
 {
   "home": {
     "seo": {
-      "title": "LocalSend: Comparte archivos a dispotivos cercanos",
-      "description": "LocalSend es una herramienta gratis, de código abierto y multiplataforma para compartir archivos a dispositivos cercanos"
+      "title": "YiDrop: Comparte archivos a dispotivos cercanos",
+      "description": "YiDrop es una herramienta gratis, de código abierto y multiplataforma para compartir archivos a dispositivos cercanos"
     },
     "slogan1": "Comparte archivos a dispositivos cercanos.",
     "slogan2": "Gratis, código abierto, multiplataforma.",
@@ -13,9 +13,9 @@
       "decentralized": "Descentralizado",
       "decentralizedDescription": "Comparte archivos sin un servidor central. La transferencia de archivos es completamente de igual a igual.",
       "crossPlatform": "Multiplataforma",
-      "crossPlatformDescription": "LocalSend está disponible para Windows, macOS, Linux, Android, e iOS.",
+      "crossPlatformDescription": "YiDrop está disponible para Windows, macOS, Linux, Android, e iOS.",
       "free": "Gratis",
-      "freeDescription": "LocalSend es gratuito. Sin anuncios, sin rastreo, sin costes ocultos.",
+      "freeDescription": "YiDrop es gratuito. Sin anuncios, sin rastreo, sin costes ocultos.",
       "openSource": "Código abierto",
       "openSourceDescription": "El código fuente esta disponible públicamente. Todo el mundo puede contribuir al proyecto.",
       "secure": "Seguro",
@@ -24,12 +24,12 @@
       "easyDescription": "Una interfaz de usuario simple y sin registro. Otros dispositivos se descubren automáticamente."
     },
     "mentioned": "Mencionado alrededor del mundo",
-    "get": "Obtén LocalSend"
+    "get": "Obtén YiDrop"
   },
   "download": {
     "seo": {
-      "title": "LocalSend - Descargas",
-      "description": "Descarga LocalSend para Windows, macOS, Linux, Android, e iOS."
+      "title": "YiDrop - Descargas",
+      "description": "Descarga YiDrop para Windows, macOS, Linux, Android, e iOS."
     },
     "title": "Descargas",
     "subTitle": "Descargas para {os}",
@@ -45,8 +45,8 @@
   },
   "community": {
     "seo": {
-      "title": "LocalSend - Comunidad",
-      "description": "Obtén ayuda, participa, y contribuye a LocalSend."
+      "title": "YiDrop - Comunidad",
+      "description": "Obtén ayuda, participa, y contribuye a YiDrop."
     },
     "title": "Comunidad",
     "getHelp": "Obtén ayuda",

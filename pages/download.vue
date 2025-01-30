@@ -72,7 +72,7 @@
           </div>
 
           <TextButton
-            href="https://github.com/localsend/localsend/releases"
+            href="https://github.com/lingyicute/yidrop/releases"
             icon="material-symbols:history"
             class="mt-2 dark:text-gray-300"
           >
@@ -191,7 +191,7 @@ const nix = {
 };
 
 const assetsMap: Ref<{ [key: string]: string }> = ref({});
-const fallbackUrl = "https://github.com/localsend/localsend/releases";
+const fallbackUrl = "https://github.com/lingyicute/yidrop/releases";
 
 const downloadMetadata = computed<Record<OS, Download>>(() => {
   return {

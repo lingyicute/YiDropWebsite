@@ -1,8 +1,8 @@
 {
   "home": {
     "seo": {
-      "title": "LocalSend: जवळच्या उपकरणांवर फायली शेअर करा",
-      "description": "LocalSend हा एक मोफत, ओपन-सोर्स, क्रॉस-प्लॅटफॉर्म फाइल शेअरिंग टूल आहे जो तुम्हाला जवळच्या उपकरणांवर फायली शेअर करण्याची परवानगी देतो."
+      "title": "YiDrop: जवळच्या उपकरणांवर फायली शेअर करा",
+      "description": "YiDrop हा एक मोफत, ओपन-सोर्स, क्रॉस-प्लॅटफॉर्म फाइल शेअरिंग टूल आहे जो तुम्हाला जवळच्या उपकरणांवर फायली शेअर करण्याची परवानगी देतो."
     },
     "slogan1": "जवळच्या उपकरणांवर फायली शेअर करा.",
     "slogan2": "मोफत, ओपन-सोर्स, क्रॉस-प्लॅटफॉर्म.",
@@ -13,9 +13,9 @@
       "decentralized": "विकेंद्रित",
       "decentralizedDescription": "केंद्रीय सर्व्हरशिवाय फायली शेअर करा. फाइल ट्रान्सफर पूर्णपणे पीअर-टू-पीअर आहे.",
       "crossPlatform": "क्रॉस-प्लॅटफॉर्म",
-      "crossPlatformDescription": "LocalSend Windows, macOS, Linux, Android, आणि iOS साठी उपलब्ध आहे.",
+      "crossPlatformDescription": "YiDrop Windows, macOS, Linux, Android, आणि iOS साठी उपलब्ध आहे.",
       "free": "मोफत",
-      "freeDescription": "LocalSend वापरण्यासाठी मोफत आहे. कोणत्याही जाहिराती नाहीत, ट्रॅकिंग नाही, लपवलेल्या किंमती नाहीत.",
+      "freeDescription": "YiDrop वापरण्यासाठी मोफत आहे. कोणत्याही जाहिराती नाहीत, ट्रॅकिंग नाही, लपवलेल्या किंमती नाहीत.",
       "openSource": "ओपन सोर्स",
       "openSourceDescription": "स्रोत कोड सार्वजनिकरित्या उपलब्ध आहे. प्रत्येकजण प्रकल्पात योगदान देऊ शकतो.",
       "secure": "सुरक्षित",
@@ -24,12 +24,12 @@
       "easyDescription": "नोंदणीशिवाय एक साधे यूजर इंटरफेस. इतर उपकरणे स्वयंचलितपणे शोधली जातात."
     },
     "mentioned": "जगभरात उल्लेख केला",
-    "get": "LocalSend मिळवा"
+    "get": "YiDrop मिळवा"
   },
   "download": {
     "seo": {
-      "title": "LocalSend - डाउनलोड",
-      "description": "Windows, macOS, Linux, Android, आणि iOS साठी LocalSend डाउनलोड करा."
+      "title": "YiDrop - डाउनलोड",
+      "description": "Windows, macOS, Linux, Android, आणि iOS साठी YiDrop डाउनलोड करा."
     },
     "title": "डाउनलोड",
     "subTitle": "{os} डाउनलोड",
@@ -45,8 +45,8 @@
   },
   "community": {
     "seo": {
-      "title": "LocalSend - समुदाय",
-      "description": "LocalSend ला मदत करा, सामील व्हा, आणि योगदान द्या."
+      "title": "YiDrop - समुदाय",
+      "description": "YiDrop ला मदत करा, सामील व्हा, आणि योगदान द्या."
     },
     "title": "समुदाय",
     "getHelp": "मदत घ्या",

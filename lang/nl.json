@@ -1,8 +1,8 @@
 {
   "home": {
     "seo": {
-      "title": "LocalSend: Deel bestanden met apparaten in de buurt",
-      "description": "LocalSend is een gratis, opensource en multiplaform app waarmee je bestanden kunt delen met apparaten in de buurt."
+      "title": "YiDrop: Deel bestanden met apparaten in de buurt",
+      "description": "YiDrop is een gratis, opensource en multiplaform app waarmee je bestanden kunt delen met apparaten in de buurt."
     },
     "slogan1": "Deel bestanden met apparaten in de buurt.",
     "slogan2": "Gratis, opensource en multiplatform.",
@@ -13,9 +13,9 @@
       "decentralized": "Gedecentraliseerd",
       "decentralizedDescription": "Deel bestanden zonder centrale server. De bestandsoverdracht vindt geheel peer-to-peer plaats.",
       "crossPlatform": "Multiplatform",
-      "crossPlatformDescription": "LocalSend is beschikbaar voor Windows, macOS, Linux, Android en iOS.",
+      "crossPlatformDescription": "YiDrop is beschikbaar voor Windows, macOS, Linux, Android en iOS.",
       "free": "Gratis",
-      "freeDescription": "LocalSend is gratis te gebruiken. Zonder advertenties, tracking of verborgen kosten.",
+      "freeDescription": "YiDrop is gratis te gebruiken. Zonder advertenties, tracking of verborgen kosten.",
       "openSource": "Opensource",
       "openSourceDescription": "De broncode is openbaar beschikbaar. Iedereen kan bijdragen aan het project.",
       "secure": "Veilig",
@@ -24,12 +24,12 @@
       "easyDescription": "Een eenvoudige interface, en geen registratie vereist. Andere apparaten worden automatisch gedetecteerd."
     },
     "mentioned": "Internationaal bekend",
-    "get": "LocalSend downloaden"
+    "get": "YiDrop downloaden"
   },
   "download": {
     "seo": {
-      "title": "LocalSend - Downloads",
-      "description": "Download LocalSend voor Windows, macOS, Linux, Android en iOS."
+      "title": "YiDrop - Downloads",
+      "description": "Download YiDrop voor Windows, macOS, Linux, Android en iOS."
     },
     "title": "Downloads",
     "subTitle": "Downloads voor {os}",
@@ -45,8 +45,8 @@
   },
   "community": {
     "seo": {
-      "title": "LocalSend - Community",
-      "description": "Stel vragen en help mee aan LocalSend."
+      "title": "YiDrop - Community",
+      "description": "Stel vragen en help mee aan YiDrop."
     },
     "title": "Community",
     "getHelp": "Hulp vragen",

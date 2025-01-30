@@ -1,8 +1,8 @@
 {
     "home": {
       "seo": {
-        "title": "LocalSend: LocalSend: I-share ang mga file sa kalapit na mga device",
-        "description": "Ang LocalSend ay isang libreng, open-source, cross-platform file sharing tool na nagbibigay-daan sa iyo upang mag-share ng mga file sa mga kalapit na mga device."
+        "title": "YiDrop: YiDrop: I-share ang mga file sa kalapit na mga device",
+        "description": "Ang YiDrop ay isang libreng, open-source, cross-platform file sharing tool na nagbibigay-daan sa iyo upang mag-share ng mga file sa mga kalapit na mga device."
       },
       "slogan1": "I-share ang mga file sa mga kalapit na mga device.",
       "slogan2": "Libre, open-source, cross-platform.",
@@ -13,9 +13,9 @@
         "decentralized": "Desentralisado",
         "decentralizedDescription": "Mag-share ng mga file nang walang central server. Ang pag-share ng file ay lubos na peer-to-peer.",
         "crossPlatform": "Cross-platform",  
-        "crossPlatformDescription": "Ang LocalSend ay magagamit para sa Windows, macOS, Linux, Android, at iOS.",
+        "crossPlatformDescription": "Ang YiDrop ay magagamit para sa Windows, macOS, Linux, Android, at iOS.",
         "free": "Libre",
-        "freeDescription": "Ang LocalSend ay libre gamitin. Walang ads, walang tracking, walang nakatagong mga bayarin.",
+        "freeDescription": "Ang YiDrop ay libre gamitin. Walang ads, walang tracking, walang nakatagong mga bayarin.",
         "openSource": "Open Source",
         "openSourceDescription": "Ang source code ay pampubliko. Maaaring mag-ambag ang sinuman sa proyekto.",
         "secure": "Ligtas",
@@ -24,12 +24,12 @@
         "easyDescription": "Isang simpleng user interface na hindi na kaylangan ng rehistrasyon. Awtomatikong made-detect ang ibang mga device"
       },
       "mentioned": "Nabanggit sa buong mundo",
-      "get": "Kunin ang LocalSend"
+      "get": "Kunin ang YiDrop"
     },
     "download": {
       "seo": {
-        "title": "LocalSend - Mga Downloads",
-        "description": "I-download ang LocalSend para sa Windows, macOS, Linux, Android, at iOS."
+        "title": "YiDrop - Mga Downloads",
+        "description": "I-download ang YiDrop para sa Windows, macOS, Linux, Android, at iOS."
       },
       "title": "Mga Downloads",
       "subTitle": "{os} Downloads",
@@ -45,8 +45,8 @@
     },
     "community": {
       "seo": {
-        "title": "LocalSend - Komunidad",
-        "description": "Kumuha ng tulong, makilahok, at mag-ambag sa LocalSend."
+        "title": "YiDrop - Komunidad",
+        "description": "Kumuha ng tulong, makilahok, at mag-ambag sa YiDrop."
       },
       "title": "Komunidad",
       "getHelp": "Humingi ng Tulong",

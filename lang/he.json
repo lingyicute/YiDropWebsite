@@ -1,8 +1,8 @@
 {
   "home": {
     "seo": {
-      "title": "LocalSend: שיתוף קבצים למכשירים בקרבת מקום",
-      "description": "LocalSend הוא כלי חינמי, קוד פתוח וחוצה פלטפורמות לשיתוף קבצים המאפשר לך לשתף קבצים למכשירים בקרבת מקום."
+      "title": "YiDrop: שיתוף קבצים למכשירים בקרבת מקום",
+      "description": "YiDrop הוא כלי חינמי, קוד פתוח וחוצה פלטפורמות לשיתוף קבצים המאפשר לך לשתף קבצים למכשירים בקרבת מקום."
     },
     "slogan1": "שיתוף קבצים למכשירים בקרבת מקום.",
     "slogan2": "חינמי, קוד פתוח, וחוצה פלטפורמות.",
@@ -13,9 +13,9 @@
       "decentralized": "מבוזר",
       "decentralizedDescription": "שיתוף קבצים ללא שרת מרכזי. העברת הקבצים היא לחלוטין עמית-לעמית.",
       "crossPlatform": "חוצה פלטפורמות",
-      "crossPlatformDescription": "LocalSend זמין עבור Windows, macOS, Linux, Android, ו-iOS.",
+      "crossPlatformDescription": "YiDrop זמין עבור Windows, macOS, Linux, Android, ו-iOS.",
       "free": "חינמי",
-      "freeDescription": "LocalSend הוא חינמי לשימוש. ללא פרסומות, ללא מעקב, ללא עלויות נסתרות.",
+      "freeDescription": "YiDrop הוא חינמי לשימוש. ללא פרסומות, ללא מעקב, ללא עלויות נסתרות.",
       "openSource": "קוד פתוח",
       "openSourceDescription": "קוד המקור זמין לציבור. כל אחד יכול לתרום לפרויקט.",
       "secure": "מאובטח",
@@ -24,12 +24,12 @@
       "easyDescription": "ממשק משתמש פשוט ללא הרשמה. מכשירים אחרים מופיעים אוטומטית."
     },
     "mentioned": "הוזכר ברחבי העולם",
-    "get": "קבל את LocalSend"
+    "get": "קבל את YiDrop"
   },
   "download": {
     "seo": {
-      "title": "LocalSend - הורדות",
-      "description": "הורד את LocalSend עבור Windows, macOS, Linux, Android, ו-iOS."
+      "title": "YiDrop - הורדות",
+      "description": "הורד את YiDrop עבור Windows, macOS, Linux, Android, ו-iOS."
     },
     "title": "הורדות",
     "subTitle": "הורדה עבור {os}",
@@ -45,8 +45,8 @@
   },
   "community": {
     "seo": {
-      "title": "LocalSend - קהילה",
-      "description": "קבל עזרה, השתתף ותרום ל-LocalSend."
+      "title": "YiDrop - קהילה",
+      "description": "קבל עזרה, השתתף ותרום ל-YiDrop."
     },
     "title": "קהילה",
     "getHelp": "קבל עזרה",

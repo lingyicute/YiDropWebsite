@@ -16,20 +16,11 @@
     <!-- Links -->
     <div class="mt-8 flex flex-wrap justify-center">
       <TextButton
-        href="https://github.com/localsend/localsend"
+        href="https://github.com/lingyicute/yidrop"
         target="_blank"
         icon="fa6-brands:github"
       >
         {{ t("footer.github") }}
-      </TextButton>
-
-      <TextButton
-        href="https://discord.gg/GSRWmQNP87"
-        target="_blank"
-        icon="fa6-brands:discord"
-        class="ms-2"
-      >
-        {{ t("footer.discord") }}
       </TextButton>
 
       <!-- https://github.com/nuxt/content/issues/1229 -->

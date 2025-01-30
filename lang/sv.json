@@ -1,8 +1,8 @@
 {
   "home": {
     "seo": {
-      "title": "LocalSend: Dela filer med närliggande enheter",
-      "description": "LocalSend är ett gratis, öppen källkod, plattformsoberoende fildelningsverktyg som låter dig dela filer med närliggande enheter."
+      "title": "YiDrop: Dela filer med närliggande enheter",
+      "description": "YiDrop är ett gratis, öppen källkod, plattformsoberoende fildelningsverktyg som låter dig dela filer med närliggande enheter."
     },
     "slogan1": "Dela filer med närliggande enheter.",
     "slogan2": "Gratis, öppen källkod, plattformsoberoende.",
@@ -13,9 +13,9 @@
       "decentralized": "Decentraliserad",
       "decentralizedDescription": "Dela filer utan en central server. Filöverföringen är helt peer-to-peer.",
       "crossPlatform": "Plattformsoberoende",
-      "crossPlatformDescription": "LocalSend är tillgängligt för Windows, macOS, Linux, Android och iOS.",
+      "crossPlatformDescription": "YiDrop är tillgängligt för Windows, macOS, Linux, Android och iOS.",
       "free": "Gratis",
-      "freeDescription": "LocalSend är gratis att använda. Inga annonser, ingen spårning, inga dolda kostnader.",
+      "freeDescription": "YiDrop är gratis att använda. Inga annonser, ingen spårning, inga dolda kostnader.",
       "openSource": "Öppen källkod",
       "openSourceDescription": "Källkoden är offentligt tillgänglig. Alla kan bidra till projektet.",
       "secure": "Säker",
@@ -24,12 +24,12 @@
       "easyDescription": "Ett enkelt användargränssnitt utan registrering. Andra enheter upptäcks automatiskt."
     },
     "mentioned": "Omnämnd över hela världen",
-    "get": "Skaffa LocalSend"
+    "get": "Skaffa YiDrop"
   },
   "download": {
     "seo": {
-      "title": "LocalSend - Nedladdningar",
-      "description": "Ladda ner LocalSend för Windows, macOS, Linux, Android och iOS."
+      "title": "YiDrop - Nedladdningar",
+      "description": "Ladda ner YiDrop för Windows, macOS, Linux, Android och iOS."
     },
     "title": "Nedladdningar",
     "subTitle": "Nedladdningar för {os}",
@@ -45,8 +45,8 @@
   },
   "community": {
     "seo": {
-      "title": "LocalSend - Gemenskap",
-      "description": "Få hjälp, engagera dig och bidra till LocalSend."
+      "title": "YiDrop - Gemenskap",
+      "description": "Få hjälp, engagera dig och bidra till YiDrop."
     },
     "title": "Gemenskap",
     "getHelp": "Få hjälp",

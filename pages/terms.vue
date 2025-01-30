@@ -1,6 +1,6 @@
 <template>
   <LegalLayout>
-    <h1>LocalSend - Terms and Conditions</h1>
+    <h1>YiDrop - Terms and Conditions</h1>
     <p>Last updated: December 29, 2022</p>
     <p>Please read these terms and conditions carefully before using Our Service.</p>
     <h1>Interpretation and Definitions</h1>
@@ -10,7 +10,7 @@
     <p>For the purposes of these Terms and Conditions:</p>
     <ul>
       <li>
-        <p><strong>Application</strong> means the software program provided by the Company downloaded by You on any electronic device, named LocalSend</p>
+        <p><strong>Application</strong> means the software program provided by the Company downloaded by You on any electronic device, named YiDrop</p>
       </li>
       <li>
         <p><strong>Application Store</strong> means the digital distribution service operated and developed by Apple Inc. (Apple App Store) or Google Inc. (Google Play Store) in which the Application has been downloaded.</p>
@@ -22,7 +22,7 @@
         <p><strong>Country</strong> refers to: Sachsen,  Germany</p>
       </li>
       <li>
-        <p><strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to LocalSend.</p>
+        <p><strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to YiDrop.</p>
       </li>
       <li>
         <p><strong>Device</strong> means any device that can access the Service such as a computer, a cellphone or a digital tablet.</p>

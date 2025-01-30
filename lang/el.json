@@ -1,8 +1,8 @@
 {
   "home": {
     "seo": {
-      "title": "LocalSend: Μοιραστείτε αρχεία με κοντινές συσκευές",
-      "description": "Το LocalSend είναι ένα δωρεάν, ανοικτού κώδικα, cross-platform εργαλείο διαμοιρασμού που επιτρέπει να μοιράζεστε αρχεία με κοντινές συσκευές."
+      "title": "YiDrop: Μοιραστείτε αρχεία με κοντινές συσκευές",
+      "description": "Το YiDrop είναι ένα δωρεάν, ανοικτού κώδικα, cross-platform εργαλείο διαμοιρασμού που επιτρέπει να μοιράζεστε αρχεία με κοντινές συσκευές."
     },
     "slogan1": "Μοιραστείτε αρχεία με κοντινές συσκευές.",
     "slogan2": "Δωρεάν, ανοικτού κώδικα, cross-platform.",
@@ -13,9 +13,9 @@
       "decentralized": "Αποκεντρωμένο",
       "decentralizedDescription": "Μοιραστείτε αρχεία χωρίς ένα κεντρικό server. Η μεταφορά των αρχείων είναι πλήρως peer-to-peer.",
       "crossPlatform": "Cross-platform",
-      "crossPlatformDescription": "Το LocalSend είναι διαθέσιμο για Windows, macOS, Linux, Android, και iOS.",
+      "crossPlatformDescription": "Το YiDrop είναι διαθέσιμο για Windows, macOS, Linux, Android, και iOS.",
       "free": "Δωρεάν",
-      "freeDescription": "Το LocalSend είναι δωρεάν. Χωρίς διαφημίσεις, χωρίς παρακολούθηση, χωρίς κρυφά κόστη.",
+      "freeDescription": "Το YiDrop είναι δωρεάν. Χωρίς διαφημίσεις, χωρίς παρακολούθηση, χωρίς κρυφά κόστη.",
       "openSource": "Ανοικτού κώδικα",
       "openSourceDescription": "Ο κώδικας είναι δημοσίως διαθέσιμος. Ο καθένας μπορεί να συνεισφέρει στο έργο.",
       "secure": "Ασφαλές",
@@ -24,12 +24,12 @@
       "easyDescription": "Μία απλή διεπαφή χρήστη χωρίς εγγραφή. Οι άλλες συσκευές εντοπίζονται αυτόματα."
     },
     "mentioned": "Αναφορές ανά την υφήλιο",
-    "get": "Κατεβάστε το LocalSend"
+    "get": "Κατεβάστε το YiDrop"
   },
   "download": {
     "seo": {
-      "title": "LocalSend - Λήψεις",
-      "description": "Κατεβάστε το LocalSend για Windows, macOS, Linux, Android, και iOS."
+      "title": "YiDrop - Λήψεις",
+      "description": "Κατεβάστε το YiDrop για Windows, macOS, Linux, Android, και iOS."
     },
     "title": "Λήψεις",
     "subTitle": "{os} Λήψεις",
@@ -45,8 +45,8 @@
   },
   "community": {
     "seo": {
-      "title": "LocalSend - Κοινότητα",
-      "description": "Βρείτε βοήθεια, συμμετάσχετε, και συνεισφέρετε στο LocalSend."
+      "title": "YiDrop - Κοινότητα",
+      "description": "Βρείτε βοήθεια, συμμετάσχετε, και συνεισφέρετε στο YiDrop."
     },
     "title": "Κοινότητα",
     "getHelp": "Βρείτε βοήθεια",

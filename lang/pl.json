@@ -1,8 +1,8 @@
 {
   "home": {
     "seo": {
-      "title": "LocalSend: Udostępniaj pliki urządzeniom w pobliżu",
-      "description": "LocalSend to bezpłatne, otwarte, wieloplatformowe narzędzie do udostępniania plików, które umożliwia udostępnianie plików pobliskim urządzeniom."
+      "title": "YiDrop: Udostępniaj pliki urządzeniom w pobliżu",
+      "description": "YiDrop to bezpłatne, otwarte, wieloplatformowe narzędzie do udostępniania plików, które umożliwia udostępnianie plików pobliskim urządzeniom."
     },
     "slogan1": "Udostępniaj pliki urządzeniom w pobliżu.",
     "slogan2": "Darmowy, otwarto-źródłowy, wieloplatformowy.",
@@ -13,9 +13,9 @@
       "decentralized": "Zdecentralizowany",
       "decentralizedDescription": "Udostępniaj pliki bez głównego serwera. Transfer plików odbywa się całkowicie peer-to-peer.",
       "crossPlatform": "Wieloplatformowy",
-      "crossPlatformDescription": "LocalSend jest dostępny na Windows, macOS, Linux, Android, oraz iOS.",
+      "crossPlatformDescription": "YiDrop jest dostępny na Windows, macOS, Linux, Android, oraz iOS.",
       "free": "Darmowy",
-      "freeDescription": "LocalSend jest darmowy w użyciu. Brak reklam, śledzenia, ukrytych kosztów.",
+      "freeDescription": "YiDrop jest darmowy w użyciu. Brak reklam, śledzenia, ukrytych kosztów.",
       "openSource": "Otwarte źródło",
       "openSourceDescription": "Kod źródłowy jest publicznie dostępny. Każdy może przyczynić się do rozwoju projektu.",
       "secure": "Bezpieczny",
@@ -24,12 +24,12 @@
       "easyDescription": "Prosty interfejs użytkownika bez rejestracji. Inne urządzenia są automatycznie wykrywane."
     },
     "mentioned": "Mówi się o nim na całym świecie",
-    "get": "Uzyskaj LocalSend"
+    "get": "Uzyskaj YiDrop"
   },
   "download": {
     "seo": {
-      "title": "LocalSend - Pobieranie",
-      "description": "Pobierz LocalSend na Windows, macOS, Linux, Android, oraz iOS."
+      "title": "YiDrop - Pobieranie",
+      "description": "Pobierz YiDrop na Windows, macOS, Linux, Android, oraz iOS."
     },
     "title": "Pobieranie",
     "subTitle": "Pobierz na {os}",
@@ -45,8 +45,8 @@
   },
   "community": {
     "seo": {
-      "title": "LocalSend - Społeczność",
-      "description": "Uzyskaj pomoc, zaangażuj się i przyczyń się do rozwoju LocalSend."
+      "title": "YiDrop - Społeczność",
+      "description": "Uzyskaj pomoc, zaangażuj się i przyczyń się do rozwoju YiDrop."
     },
     "title": "Społeczność",
     "getHelp": "Uzyskaj wsparcie",

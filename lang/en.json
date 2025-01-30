@@ -1,8 +1,8 @@
 {
   "home": {
     "seo": {
-      "title": "LocalSend: Share files to nearby devices",
-      "description": "LocalSend is a free, open-source, cross-platform file sharing tool that allows you to share files to nearby devices."
+      "title": "YiDrop: Share files to nearby devices",
+      "description": "YiDrop is a free, open-source, cross-platform file sharing tool that allows you to share files to nearby devices."
     },
     "slogan1": "Share files to nearby devices.",
     "slogan2": "Free, open-source, cross-platform.",
@@ -13,9 +13,9 @@
       "decentralized": "Decentralized",
       "decentralizedDescription": "Share files without a central server. The file transfer is completely peer-to-peer.",
       "crossPlatform": "Cross-platform",
-      "crossPlatformDescription": "LocalSend is available for Windows, macOS, Linux, Android, and iOS.",
+      "crossPlatformDescription": "YiDrop is available for Windows, macOS, Linux, Android, and iOS.",
       "free": "Free",
-      "freeDescription": "LocalSend is free to use. No ads, no tracking, no hidden costs.",
+      "freeDescription": "YiDrop is free to use. No ads, no tracking, no hidden costs.",
       "openSource": "Open Source",
       "openSourceDescription": "The source code is publicly available. Everyone can contribute to the project.",
       "secure": "Secure",
@@ -24,12 +24,12 @@
       "easyDescription": "A simple user interface without registration. Other devices are discovered automatically."
     },
     "mentioned": "Mentioned across the globe",
-    "get": "Get LocalSend"
+    "get": "Get YiDrop"
   },
   "download": {
     "seo": {
-      "title": "LocalSend - Downloads",
-      "description": "Download LocalSend for Windows, macOS, Linux, Android, and iOS."
+      "title": "YiDrop - Downloads",
+      "description": "Download YiDrop for Windows, macOS, Linux, Android, and iOS."
     },
     "title": "Downloads",
     "subTitle": "{os} Downloads",
@@ -45,8 +45,8 @@
   },
   "community": {
     "seo": {
-      "title": "LocalSend - Community",
-      "description": "Get help, get involved, and contribute to LocalSend."
+      "title": "YiDrop - Community",
+      "description": "Get help, get involved, and contribute to YiDrop."
     },
     "title": "Community",
     "getHelp": "Get Help",

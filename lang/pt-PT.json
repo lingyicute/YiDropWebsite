@@ -1,8 +1,8 @@
 {
   "home": {
     "seo": {
-      "title": "LocalSend: Partilhe ficheiros para dispositivos próximos",
-      "description": "O LocalSend é uma ferramenta de partilha de ficheiros gratuita, de código aberto e multiplataforma que lhe permite partilhar ficheiros com dispositivos próximos."
+      "title": "YiDrop: Partilhe ficheiros para dispositivos próximos",
+      "description": "O YiDrop é uma ferramenta de partilha de ficheiros gratuita, de código aberto e multiplataforma que lhe permite partilhar ficheiros com dispositivos próximos."
     },
     "slogan1": "Partilhe ficheiros com dispositivos próximos.",
     "slogan2": "Gratuito, de código aberto, multiplataforma.",
@@ -13,9 +13,9 @@
       "decentralized": "Descentralizado",
       "decentralizedDescription": "Partilhe ficheiros sem um servidor central. A transferência de ficheiros é completamente ponto a ponto.",
       "crossPlatform": "Multiplataforma",
-      "crossPlatformDescription": "O LocalSend está disponível para Windows, macOS, Linux, Android e iOS.",
+      "crossPlatformDescription": "O YiDrop está disponível para Windows, macOS, Linux, Android e iOS.",
       "free": "Gratuito",
-      "freeDescription": "A utilização do LocalSend é gratuita. Sem anúncios, sem rastreio, sem custos ocultos.",
+      "freeDescription": "A utilização do YiDrop é gratuita. Sem anúncios, sem rastreio, sem custos ocultos.",
       "openSource": "Código aberto",
       "openSourceDescription": "O código fonte está disponível ao público. Todos podem contribuir para o projeto.",
       "secure": "Seguro",
@@ -24,12 +24,12 @@
       "easyDescription": "Uma interface simples e sem a necessidade de registo. Outros dispositivos são detetáveis automaticamente."
     },
     "mentioned": "Mencionado em todo o mundo",
-    "get": "Obtenha o LocalSend"
+    "get": "Obtenha o YiDrop"
   },
   "download": {
     "seo": {
-      "title": "LocalSend - Descargas",
-      "description": "Descarregue o LocalSend para Windows, macOS, Linux, Android e iOS."
+      "title": "YiDrop - Descargas",
+      "description": "Descarregue o YiDrop para Windows, macOS, Linux, Android e iOS."
     },
     "title": "Descargas",
     "subTitle": "Descargas do {os}",
@@ -45,8 +45,8 @@
   },
   "community": {
     "seo": {
-      "title": "LocalSend - Communidade",
-      "description": "Obtenha ajuda, participe e contribua para o LocalSend."
+      "title": "YiDrop - Communidade",
+      "description": "Obtenha ajuda, participe e contribua para o YiDrop."
     },
     "title": "Comunidade",
     "getHelp": "Obtenha ajuda",
