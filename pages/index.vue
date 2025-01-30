@@ -132,15 +132,6 @@
           </AppButton>
         </NuxtLink>
       </div>
-
-      <TextButton
-        href="https://github.com/lingyicute/yidropwebsite"
-        target="_blank"
-        icon="material-symbols:build"
-        class="mb-8 dark:text-gray-300"
-      >
-        {{ t("improveWebsite") }}
-      </TextButton>
     </div>
   </div>
 </template>

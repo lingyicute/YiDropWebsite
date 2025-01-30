@@ -35,17 +35,6 @@
         </slot>
       </div>
     </div>
-
-    <div class="text-center dark:text-gray-300">
-      <TextButton
-        href="https://github.com/lingyicute/yidropwebsite"
-        target="_blank"
-        icon="material-symbols:build"
-        class="mb-8"
-      >
-        {{ t("improveWebsite") }}
-      </TextButton>
-    </div>
   </div>
 </template>
 
