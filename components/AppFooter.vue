@@ -31,32 +31,6 @@
 <!--      </NuxtLink>-->
     </div>
 
-    <!-- Links -->
-    <div class="mt-4 flex flex-wrap justify-center">
-      <NuxtLink to="/privacy" class="ms-2">
-        <TextButton icon="material-symbols:shield-lock">
-          {{ t("footer.privacy") }}
-        </TextButton>
-      </NuxtLink>
-
-      <NuxtLink to="/terms" class="ms-2">
-        <TextButton icon="material-symbols:gavel">
-          {{ t("footer.terms") }}
-        </TextButton>
-      </NuxtLink>
-
-      <NuxtLink to="/imprint" class="ms-2">
-        <TextButton icon="material-symbols:info">
-          {{ t("footer.imprint") }}
-        </TextButton>
-      </NuxtLink>
-
-      <NuxtLink to="/contact" class="ms-2">
-        <TextButton icon="material-symbols:chat-bubble">
-          {{ t("footer.contact") }}
-        </TextButton>
-      </NuxtLink>
-    </div>
   </div>
 </template>
 
