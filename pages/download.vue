@@ -1,7 +1,7 @@
 <template>
+  <!-- 模板部分保持不变 -->
   <SecondaryLayoutX :sub-title="t('download.title')">
     <template v-slot:tabs>
-      <!-- OS Buttons -->
       <div class="mt-8 flex flex-wrap justify-center dark:text-gray-300">
         <AppButton
           v-for="os in OS"
@@ -33,37 +33,22 @@ enum OS {
   android = "Android",
 }
 
-const assetsMap: Ref<{ [key: string]: string }> = ref({});
-const fallbackUrl = "https://github.com/lingyicute/yidrop/releases/latest";
+const WINDOWS_URL = "https://github.com/lingyicute/yidrop/releases/latest/download/YiDrop.exe";
+const ANDROID_URL = "https://github.com/lingyicute/yidrop/releases/latest/download/YiDrop_arm64.apk";
+const FALLBACK_URL = "https://github.com/lingyicute/yidrop/releases/latest";
 
 function handleDownload(os: OS) {
-  if (os === OS.linux) {
-    window.location.href = fallbackUrl;
-    return;
+  switch (os) {
+    case OS.windows:
+      window.location.href = WINDOWS_URL;
+      break;
+    case OS.android:
+      window.location.href = ANDROID_URL;
+      break;
+    case OS.linux:
+    default:
+      window.location.href = FALLBACK_URL;
   }
-
-  const fileExtension = os === OS.windows ? 'exe' : 'apk';
-  const downloadUrl = assetsMap.value[fileExtension] ?? fallbackUrl;
-  window.location.href = downloadUrl;
 }
 
-onMounted(async () => {
-  const assetsMetadata = await requestGithubAssets();
-  assetsMap.value = assetsMetadata.reduce<{ [key: string]: string }>(
-    (acc, asset) => {
-      const key = asset.name.split(".").pop();
-      if (!key) {
-        return acc;
-      }
-
-      if (key === "apk" && !asset.name.includes("arm64v8")) {
-        return acc;
-      }
-
-      acc[key] = asset.browser_download_url;
-      return acc;
-    },
-    {}
-  );
-});
 </script>
