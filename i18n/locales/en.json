@@ -23,7 +23,6 @@
       "easy": "Easy to Use",
       "easyDescription": "A simple user interface without registration. Other devices are discovered automatically."
     },
-    "mentioned": "Mentioned across the globe",
     "get": "Get YiDrop"
   },
   "download": {
@@ -36,11 +35,7 @@
     "appStores": "App Stores",
     "appStoresDescription": "Recommended for most users.",
     "binaries": "Binaries",
-    "binariesDescription": "Download for offline usage.",
-    "packageManagers": "Package Managers",
-    "packageManagersDescription": "Install with terminal.",
     "allReleases": "All Releases",
-    "zip": "ZIP (portable)",
     "copiedToClipboard": "Copied to clipboard!"
   },
   "community": {

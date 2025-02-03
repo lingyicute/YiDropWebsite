@@ -1,46 +1,41 @@
 {
   "home": {
     "seo": {
-      "title": "YiDrop：向附近设备分享文件",
-      "description": "YiDrop是一个免费、开源、跨平台的文件分享工具，允许您将文件分享到附近的设备。"
+      "title": "YiDrop：快速且安全地分享文件",
+      "description": "YiDrop 是一个开源、免费、跨平台的文件分享工具，帮助你将文件快速且安全地分享到附近的设备。"
     },
-    "slogan1": "将文件分享到附近的设备。",
-    "slogan2": "免费、开源、跨平台。",
+    "slogan1": "快速且安全地分享文件",
+    "slogan2": "开源、免费、跨平台。",
     "download": "下载",
     "community": "社区",
     "features": {
       "title": "特点",
       "decentralized": "去中心化",
-      "decentralizedDescription": "无需中央服务器即可分享文件。文件传输完全点对点。",
+      "decentralizedDescription": "依靠局域网传输文件，数据不流经服务器，快速且安全。",
       "crossPlatform": "跨平台",
-      "crossPlatformDescription": "YiDrop可用于Windows、macOS、Linux、Android和iOS。",
+      "crossPlatformDescription": "YiDrop 带着跨平台的使命出发，支持 Android、Windows 和 Linux 全架构。",
       "free": "免费",
-      "freeDescription": "YiDrop免费使用。无广告、无跟踪、无隐藏付费。",
+      "freeDescription": "YiDrop 是免费的，无广告、无跟踪、不打扰。",
       "openSource": "开源",
-      "openSourceDescription": "源代码公开可用。任何人都可以为项目做出贡献。",
+      "openSourceDescription": "源代码公开可用，任何人都可以为项目做出贡献。",
       "secure": "安全",
-      "secureDescription": "端到端加密确保只有您和接收者可以访问您的文件。",
-      "easy": "易于使用",
-      "easyDescription": "无需注册的简单用户界面。其他设备会自动被发现。"
+      "secureDescription": "端到端加密确保只有你和接收者可以访问你的文件。",
+      "easy": "轻松上手",
+      "easyDescription": "简简单单的用户界面，无需配置即可使用。"
     },
-    "mentioned": "享誉全球",
     "get": "获取 YiDrop"
   },
   "download": {
     "seo": {
       "title": "YiDrop - 下载",
-      "description": "下载适用于Windows、macOS、Linux、Android和iOS的YiDrop。"
+      "description": "下载适用于 Android、Windows 和 Linux 的 YiDrop。"
     },
     "title": "下载",
     "subTitle": "{os}版下载",
     "appStores": "应用商店",
     "appStoresDescription": "适合大多数用户",
     "binaries": "二进制文件",
-    "binariesDescription": "可供离线使用的下载",
-    "packageManagers": "包管理器",
-    "packageManagersDescription": "通过终端安装",
     "allReleases": "所有版本",
-    "zip": "压缩包（便携式）",
     "copiedToClipboard": "已复制到剪贴板！"
   },
   "community": {
