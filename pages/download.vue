@@ -1,4 +1,5 @@
 <template>
+  <!-- 模板部分保持不变 -->
   <SecondaryLayoutX :sub-title="t('download.title')">
     <template v-slot:tabs>
       <div class="mt-8 flex flex-wrap justify-center dark:text-gray-300">
@@ -8,7 +9,6 @@
           class="mx-2 mb-4"
           @click="handleDownload(os)"
           :dark="false"
-          :color="blue"
         >
           {{ os }}
         </AppButton>
