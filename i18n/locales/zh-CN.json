@@ -4,24 +4,24 @@
       "title": "YiDrop：快速且安全地分享文件",
       "description": "YiDrop 是一个开源、免费、跨平台的文件分享工具，帮助你将文件快速且安全地分享到附近的设备。"
     },
-    "slogan1": "快速且安全地分享文件",
+    "slogan1": "快速且安全地分享文件，",
     "slogan2": "开源、免费、跨平台。",
     "download": "下载",
     "community": "社区",
     "features": {
       "title": "特点",
       "decentralized": "去中心化",
-      "decentralizedDescription": "依靠局域网传输文件，数据不流经服务器，快速且安全。",
+      "decentralizedDescription": "文件在局域网里悄悄旅行，无需服务器中转，又快又安全。",
       "crossPlatform": "跨平台",
       "crossPlatformDescription": "YiDrop 带着跨平台的使命出发，支持 Android、Windows 和 Linux 全架构。",
-      "free": "免费",
-      "freeDescription": "YiDrop 是免费的，无广告、无跟踪、不打扰。",
+      "free": "清爽，纯粹",
+      "freeDescription": "像清晨第一缕阳光般干净，没有广告弹窗打扰，也没有讨厌的跟踪。",
       "openSource": "开源",
-      "openSourceDescription": "源代码公开可用，任何人都可以为项目做出贡献。",
+      "openSourceDescription": "源代码在 GitHub 上公开可用，任何人都可以为项目做出贡献。",
       "secure": "安全",
       "secureDescription": "端到端加密确保只有你和接收者可以访问你的文件。",
-      "easy": "轻松上手",
-      "easyDescription": "简简单单的用户界面，无需配置即可使用。"
+      "easy": "简单",
+      "easyDescription": "轻松上手的用户界面，发送文件比吹散蒲公英还简单～"
     },
     "get": "获取 YiDrop"
   },
