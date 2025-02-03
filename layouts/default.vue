@@ -29,3 +29,17 @@ const description = computed(() => route.meta.description ? t(route.meta.descrip
     </Html>
   </div>
 </template>
+
+<style>
+@font-face {
+  font-family: 'Starry';
+  src: url('/font/starry.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+html, body {
+  font-family: 'Starry', sans-serif;
+}
+</style>
