@@ -1,0 +1,1 @@
+import{_ as o}from"./B_pIeC8c.js";import{e as a,f as e,w as s,o as r,a as n}from"./BicOSPaJ.js";import"./CA2mKn8Z.js";const f=a({__name:"contact",setup(c){return(p,t)=>(r(),e(o,null,{default:s(()=>t[0]||(t[0]=[n("h1",{class:"text-xl"},"Contact: support@localsend.org",-1)])),_:1}))}});export{f as default};
