@@ -44,6 +44,7 @@
                   <AppButton
                     icon="material-symbols:arrow-downward"
                     :dark="true"
+                    :color="blue"
                   >
                     {{ t("home.download") }}
                   </AppButton>
@@ -127,7 +128,7 @@
       </h2>
       <div class="mb-36 mt-8 flex items-center justify-center gap-4">
         <NuxtLink :to="localePath({ path: '/download' })">
-          <AppButton icon="material-symbols:download" :dark="true">
+          <AppButton icon="material-symbols:download" :dark="true" :color="blue">
             {{ t("home.download") }}
           </AppButton>
         </NuxtLink>
