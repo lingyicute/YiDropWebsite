@@ -61,7 +61,7 @@
             class="col-span-3 flex items-center justify-center md:col-span-1"
           >
             <img
-              src="/img/screenshot-iphone.webp"
+              src="/img/yidrop.webp"
               alt="iPhone Screenshot"
               class="h-96 object-contain"
             />
