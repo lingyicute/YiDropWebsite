@@ -33,8 +33,8 @@ enum OS {
   android = "Android",
 }
 
-const WINDOWS_URL = "https://github.com/lingyicute/yidrop/releases/latest/download/YiDrop.exe";
-const ANDROID_URL = "https://github.com/lingyicute/yidrop/releases/latest/download/YiDrop_arm64.apk";
+const WINDOWS_URL = "https://github.com/lingyicute/yidrop/releases/latest/download/YiDrop-Installer.exe";
+const ANDROID_URL = "https://github.com/lingyicute/yidrop/releases/latest/download/YiDrop_arm64-v8a_opt.apk";
 const FALLBACK_URL = "https://github.com/lingyicute/yidrop/releases/latest";
 
 function handleDownload(os: OS) {
